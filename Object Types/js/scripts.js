@@ -5,8 +5,8 @@
 
 var quote1 = {
 	quote: '"Our deepest fear is not that we are inadequate. Our deepest fear is that we are powerful beyond measure."',
-	author: "Mariann Williamson",
-	tags: ["author", "humanity"],
+	author: "Marianne Williamson",
+	tags: ["author", "humanity", "inspiration"],
 	color: "#0a3410",
 	display: function() {
 		var quoteString = "";
@@ -17,6 +17,8 @@ var quote1 = {
 		$("body").prepend(quoteString);
 	}
 }
+
+quote1.display();
 
 // var quoteString = "";
 // quotes.forEach(function(quote){
