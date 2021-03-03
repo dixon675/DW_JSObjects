@@ -11,12 +11,17 @@ img {
 	max-width: 100%;
 }
 
-body {
-	color: white;
+.quotes {
+	color: rbg(40,40,40);
+	display: flex;
 }
 
-div {
+div > div {
 	width: 250px;
 	height: 250px;
 	padding: 20px;
+}
+
+.active{
+	background-color: #F6F1C4;
 }
