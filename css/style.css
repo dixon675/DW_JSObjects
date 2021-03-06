@@ -21,6 +21,7 @@ h2 {
 
 /* Working with the button tags at the top */
 button {
+	background-color: rgb:240, 240, 240;
 	font: 500 14px 'Montserrat', sans-serif;
 	border-radius: 25px;
 	border: none;
